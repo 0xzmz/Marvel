@@ -1,5 +1,5 @@
-# Marvel
-Marvel Composer Package
+# 漫威
+漫威 Composer 包
 
 [![ralph/marvel](https://jaywcjlove.github.io/sb/lang/english.svg)](README.md) 
 [![ralph/marvel](https://jaywcjlove.github.io/sb/lang/chinese.svg)](README-zh.md) 
@@ -8,23 +8,23 @@ Marvel Composer Package
 [![Latest Unstable Version](https://poser.pugx.org/ralph/marvel/v/unstable)](https://packagist.org/packages/ralph/marvel)
 [![License](https://poser.pugx.org/ralph/marvel/license)](https://packagist.org/packages/ralph/marvel)
 
-## Requirement
+## 环境要求
 
 1. Guzzlehttp/guzzle
 2. **[Composer](https://getcomposer.org/)**
 
-## Installation
+## 安装
 
 ```shell
 $ composer require "ralph/marvel:~0.0.2" -vvv
 ```
 
-## Usage
+## 使用
 
 
-## Documentation
+## 文档
 
 
-## License
+## 协议
 
 MIT
