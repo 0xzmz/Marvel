@@ -21,7 +21,7 @@ Marvel Comics API是一个工具，可以帮助各地的开发人员使用漫威
 
 - **注册:** [获取API密钥](https://developer.marvel.com/signup)
 - **成为优秀的API使用者:** 阅读，理解并遵守 [Marvel Comics API](https://developer.marvel.com/terms) 的使用条款
-- **链接返回:** 显示来自API的数据时，[请遵循属性和链接指南](https://developer.marvel.com/documentation/attribution))。
+- **链接返回:** 显示来自API的数据时，[请遵循属性和链接指南](https://developer.marvel.com/documentation/attribution)。
 - **开始建立有趣的应用:** 使用 [Ralph/Marvel](https://packagist.org/packages/ralph/marvel) 包
 
 > 上述内容来自: [https://developer.marvel.com/documentation/getting_started](https://developer.marvel.com/documentation/getting_started)
