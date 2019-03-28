@@ -8,6 +8,23 @@ Marvel Composer Package
 [![Latest Unstable Version](https://poser.pugx.org/ralph/marvel/v/unstable)](https://packagist.org/packages/ralph/marvel)
 [![License](https://poser.pugx.org/ralph/marvel/license)](https://packagist.org/packages/ralph/marvel)
 
+## Introduction
+
+Welcome to the world's greatest marvel comics API!
+
+The Marvel Comics API is a tool to help developers everywhere create amazing, uncanny and incredible web sites and applications using data from the 70-plus years of the Marvel age of comics.
+
+**Ready to get started?** Great!
+
+Here's the short version of what you need to do:
+
+- **Sign up:** [Get an API key](https://developer.marvel.com/signup)
+- **Be a good API citizen:** read, understand, and abide by the [terms of use](https://developer.marvel.com/terms) for the Marvel Comics API
+- **Link back:** observe the [attribution and linking guidelines](https://developer.marvel.com/documentation/attribution) when displaying data from the API
+- **Build cool stuff**: use [Ralph/Marvel](<https://packagist.org/packages/ralph/marvel>) Composer Package
+
+> Ref: <https://developer.marvel.com/documentation/getting_started>
+
 ## Requirement
 
 1. Guzzlehttp/guzzle
@@ -21,9 +38,45 @@ $ composer require "ralph/marvel:~0.0.2" -vvv
 
 ## Usage
 
+```php
+<?php
+
+use Ralph\Marvel;
+
+$config = [
+    'publicKey' => '',
+    'privateKey' => '',
+];
+
+$marvel = new Marvel($config);
+
+$options = [
+    'limit' => 10,
+];
+
+// Fetches lists of comic characters with optional filters. 
+$characters = $marvel->characters($options);
+
+// Fetches lists of comics with optional filters.
+$comics = $marvel->comics($options);
+
+// Fetches lists of comic creators with optional filters. 
+$creators = $marvel->creators($options);
+
+// Fetches lists of events with optional filters.
+$events = $marvel->events($options);
+
+// Fetches lists of comic series with optional filters.
+$series = $marvel->series($options);
+
+// Fetches lists of comic stories with optional filters.
+$stories = $marvel->stories($options);
+
+```
 
 ## Documentation
 
+For more detail documentation, we can access Maravel's develpoer site,<https://developer.marvel.com/docs#!/public/getCreatorCollection_get_0>.
 
 ## License
 
