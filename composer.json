@@ -1,0 +1,27 @@
+{
+    "name": "ralph/marvel",
+    "description": "Marvel Api For PHP",
+    "type": "php",
+    "require": {
+        "php": ">=5.6"
+    },
+    "require-dev": {
+    },
+    "license": "MIT",
+    "authors": [{
+        "name": "Ralph",
+        "email": "zmzralph@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Ralph\\Marvel\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.laravel-china.org"
+        }
+    }
+}
