@@ -44,8 +44,8 @@ $ composer require "ralph/marvel:~0.0.2" -vvv
 use Ralph\Marvel;
 
 $config = [
-    'publicKey' => '',
-    'privateKey' => '',
+    'publicKey' => '***',
+    'privateKey' => '*******',
 ];
 
 $marvel = new Marvel($config);
