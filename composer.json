@@ -18,11 +18,5 @@
             "Ralph\\": "src"
         }
     },
-    "minimum-stability": "dev",
-    "repositories": {
-        "packagist": {
-            "type": "composer",
-            "url": "https://packagist.laravel-china.org"
-        }
-    }
+    "minimum-stability": "dev"
 }

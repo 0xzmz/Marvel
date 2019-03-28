@@ -63,6 +63,12 @@ class Marvel{
 
     /*
      * 使用可选过滤器获取漫画人物列表。请参阅下面的各个参数说明。
+     * $options[
+     *  'name' => 'Spider-Man'      // filtered by full name (e.g. Spider-Man) 通过姓名全称过滤,比如 蜘蛛侠( Spider-man )
+     *  'nameStartsWith' => 'Sp'    // filtered by name that is begin with the specified string (e.g. Sp). 通过姓名首字母过滤，比如 Sp
+     *  'modifiedSince' => ''       // filtered by time that has been modified since the specified date.  通过指定日期过滤，返回从指定日期以来已修改的漫画人物
+     *  'comics' => ''              //
+     * ]
      *
      * */
     public function characters(array $options = [])
